@@ -14,6 +14,13 @@ Bu proje, tarihî ve matbu Osmanlıca belgelerin okunması ve anlaşılması sü
 * ✍️ **Kullanıcı Onaylı Düzenleme (Human-in-the-Loop):** Her aşamada kullanıcının çıktılara müdahale edebildiği ve düzeltebildiği esnek arayüz. ??????
 * 📱 **Uçtan Uca Mobil Deneyim:** React Native (Expo) ile geliştirilmiş, hızlı ve kullanıcı dostu arayüz.
 
-## 🏗️ Sistem Mimarisi (Pipeline)
-
-Proje 4 ana işlem modülünün ardışık (sequential) olarak çalışmasıyla sonuç üretir:
+## 🏗️ Sistem Mimarisi 
+data/
+└── raw/
+    ├── ground_truth/
+    │   ├── dergi_ornek_1.jpg   # Az önce gösterdiğin çevirili dergi görseli
+    │   └── dergi_ornek_1.txt   # O dergi sayfasının sağındaki hazır Latin metni
+    │
+    └── unlabelled/
+        ├── ham_dergi_sayfasi_1.jpg  # Sadece Osmanlıca metin olan dergi görseli
+        └── ham_dergi_sayfasi_2.jpg
