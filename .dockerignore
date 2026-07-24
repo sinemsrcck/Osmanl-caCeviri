@@ -1,0 +1,6 @@
+data/raw/
+data/processed/
+models/
+.git/
+__pycache__/
+*.pyc
