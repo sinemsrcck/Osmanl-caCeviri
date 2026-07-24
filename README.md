@@ -24,3 +24,12 @@ data/
     └── unlabelled/
         ├── ham_dergi_sayfasi_1.jpg  # Sadece Osmanlıca metin olan dergi görseli
         └── ham_dergi_sayfasi_2.jpg
+
+
+
+
+
+
+
+KURULUM İÇİN 
+pip install -r requirements/image_enhancement.txt
